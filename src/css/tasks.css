@@ -1,0 +1,44 @@
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    user-select: none;
+}
+
+.styled-table th, .styled-table td {
+    border: 1px solid #ddd; /* This will add borders to all table cells */
+    padding: 8px; /* This will space out the columns a bit */
+}
+
+
+
+.styled-table tr:hover {
+    background-color: #ddd; /* This will highlight a row when it's hovered over */
+}
+
+.styled-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+
+.button {
+    padding: 10px 30px ;
+    background-color: #007BFF;
+    color: #fff;
+    height: 37px !important;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+  
+  
+    /* Optional: Add some hover effect */
+    &:hover {
+      background-color: darkblue; /* Darker blue on hover */
+    }
+  }

@@ -1,0 +1,42 @@
+.matter-id-box {
+    border: 1px solid blue;
+    padding: 10px;
+    margin: 5px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 20%;
+}
+
+.details-box {
+    border: 1px solid blue;
+    padding: 10px;
+    margin: 5px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 40%;
+
+}
+
+.filenotes-box{
+    border: 1px solid blue;
+    padding: 10px;
+    margin: 5px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.matter-id-box {
+        
+    width: 20%;
+    margin: 0 auto;
+}
+
+.client-id-box {
+    border: 1px solid blue;
+    padding: 10px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 40%;
+}
+
+.filenote-record {
+    margin-bottom: 20px; /* Adjust this value as needed */
+}

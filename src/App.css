@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.nav-link{
+  margin-right: 20px;
+  margin-bottom: 200px;
+}
+
+.TaskPane{
+  display: flex;
+}
+
+.count-box{
+  background-color: #61dafb;
+  border: 1px gray;
+  padding: 10px;
+  width: 500px;
+  box-shadow: 0 0 5px rgba(0, 0, 0 ,0);
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.count-box-new{
+  background-color: #61dafb;
+  border: 1px gray;
+ max-width: fit-content;
+ box-shadow: 0 0 5px rgba(0, 0, 0 ,0);
+ border-radius: 5px;
+ margin: 10px;
+}
+
+.bordered-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.bordered-td, .bordered-tr, .bordered-th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.side-bar {
+  -ms-flex: 0 0 200px !important;
+  flex: 0 0 200px !important;
+}
+
